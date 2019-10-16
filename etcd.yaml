@@ -1,0 +1,8 @@
+
+etcd:
+  host: 'localhost'
+  #各个客户端共同推举的的key
+  master_key: 'master_key'
+  #各个客户端自己的value值
+  current_value: 'value_one'
+  ttl: 20
